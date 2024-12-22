@@ -1,0 +1,13 @@
+[manifest]
+version = "1.2"
+dump_lua = true
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "main.lua"
+pattern = '''if os == 'OS X' or os == 'Windows' then'''
+position = "at"
+payload = '''if true then'''
+overwrite = true
+match_indent = true
