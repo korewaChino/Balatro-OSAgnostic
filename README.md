@@ -40,5 +40,5 @@ ln -sf ~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/A
 For Lovely Injector mods, the directory is different (for now), so you'll need to symlink the mods directory as well
 
 ```bash
-ln -sf ~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro ~/.config/love/Mods
+ln -sf ~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods ~/.config/love/Mods
 ```
