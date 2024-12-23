@@ -11,3 +11,12 @@ position = "at"
 payload = '''if true then'''
 overwrite = true
 match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "main.lua"
+pattern = '''if os == 'OS X' then'''
+position = "at"
+payload = '''if true then'''
+overwrite = true
+match_indent = true
