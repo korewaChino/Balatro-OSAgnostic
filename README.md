@@ -30,7 +30,7 @@ This simple Lovely mod simply bypasses the OS check in Balatro, allowing Steamwo
 
 Cloud saves will probably not work, as they rely on the Steam app manifest to determine the save directory. You can manually symlink the save directory to the Steam cloud save directory if you want to use cloud saves.
 
-Steamodded should also handle the OS-agnostic changes out of the box if need be, so you may skip installing this mod and follow the rest of the instructions on how to load
+Steamodded should also handle the OS-agnostic changes out of the box if need be (as of <https://github.com/Steamopollys/Steamodded/commit/ec7c5c9337bc9cded055e721ce33351c1977fe1b>), so you may skip installing this mod and follow the rest of the instructions on how to load
 the Steam API libraries.
 
 ```bash
