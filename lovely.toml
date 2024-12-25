@@ -20,3 +20,12 @@ position = "at"
 payload = '''if os == 'OS X' or os == 'Linux' then'''
 overwrite = true
 match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = '''if love.system.getOS() == 'Windows' then'''
+position = "at"
+payload = '''if love.system.getOS() == 'Windows' or love.system.getOS() == 'Linux' then'''
+overwrite = true
+match_indent = true
