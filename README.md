@@ -2,6 +2,11 @@
 
 This simple Lovely mod simply bypasses the OS check in Balatro, allowing Steamworks API integration in the game while running natively on Linux
 
+This mod also enables some extra patches not available in the Steamodded patches, such as:
+
+- Removing Windows-specific check in `globals.lua` to replicate Windows behavior on Linux (i.e Discord and Twitter integration)
+- Optional Mobile UI scaling (See `lovely.toml`)
+
 ## Installation
 
 1. Install Lovely Injector and LOVE (For now, you'll need to build the latest version of LOVE from source from a [PR](https://github.com/ethangreen-dev/lovely-injector/pull/66)), copy `liblovely.so` into the same directory as `Balatro.exe`

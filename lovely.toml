@@ -29,3 +29,14 @@ position = "at"
 payload = '''if love.system.getOS() == 'Windows' or love.system.getOS() == 'Linux' then'''
 overwrite = true
 match_indent = true
+
+# Enable Mobile UI (1.5x scale for some descriptions)
+
+# [[patches]]
+# [patches.pattern]
+# target = "globals.lua"
+# pattern = '''self.F_MOBILE_UI = false'''
+# position = "at"
+# payload = '''self.F_MOBILE_UI = true'''
+# overwrite = true
+# match_indent = true
