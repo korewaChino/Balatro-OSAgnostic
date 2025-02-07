@@ -1,5 +1,11 @@
 # Balatro-OSAgnostic
 
+> [!NOTE]
+> The changes this mod makes has already been mainlined in SMODS, you do not need to install the mod if you'd like to play on Linux.
+>
+> Simply follow the [Installation Guide](#installation) but skip step 4.
+
+
 This simple Lovely mod simply bypasses the OS check in Balatro, allowing Steamworks API integration in the game while running natively on Linux
 
 This mod also enables some extra patches not available in the Steamodded patches, such as:
