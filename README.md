@@ -9,7 +9,7 @@ This mod also enables some extra patches not available in the Steamodded patches
 
 ## Installation
 
-1. Install Lovely Injector and LOVE (For now, you'll need to build the latest version of LOVE from source from a [PR](https://github.com/ethangreen-dev/lovely-injector/pull/66)), copy `liblovely.so` into the same directory as `Balatro.exe`
+1. Install Lovely Injector and LOVE (For now, you'll need to build the latest version of LOVE from source from [this tree](https://github.com/ethangreen-dev/lovely-injector/tree/master/crates/lovely-unix), copy `liblovely.so` into the same directory as `Balatro.exe`
 
 2. Download [luasteam](https://github.com/uspgamedev/luasteam) and the [Steamworks SDK](https://partner.steamgames.com/downloads/steamworks_sdk.zip)
 
